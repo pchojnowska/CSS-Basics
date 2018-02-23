@@ -1,8 +1,11 @@
-#main-content p {
-    color: red;
-
+li:nth-child(1), li:nth-child(7){
+    font-weight: bold;
 }
 
-p {
-    color: black;
+li:nth-child(even) {
+    background: pink;
+}
+
+li:nth-child(3n+1) {
+    color:blue;
 }
