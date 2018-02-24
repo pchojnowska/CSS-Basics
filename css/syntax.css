@@ -1,11 +1,33 @@
-li:nth-child(1), li:nth-child(7){
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+div {
+    font-size: 16px;
+}
+
+#content-header {
+    font-size: 3em;
+}
+
+a {
+    color: deepskyblue;
+    text-decoration: none;
     font-weight: bold;
 }
 
-li:nth-child(even) {
-    background: pink;
+a:hover {
+    color: crimson;
+    text-decoration: underline;
+    background-color: aquamarine;
 }
 
-li:nth-child(3n+1) {
-    color:blue;
+.box {
+    margin: 30px auto;
+    padding: 30px;
+    border: 1px solid black;
+    width: 400px;
+    height: 200px;
 }
