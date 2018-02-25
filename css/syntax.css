@@ -4,8 +4,12 @@
     color: black;
 }
 
-div {
-    font-size: 16px;
+#main-content {
+    background-color: aliceblue;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2%;
+    height: 100%;
 }
 
 #content-header {
@@ -16,10 +20,15 @@ a {
     color: deepskyblue;
     text-decoration: none;
     font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid mediumvioletred;
+    border-radius: 5px 10px;
+    display: inline-block;
+
 }
 
 a:hover {
-    color: crimson;
     text-decoration: underline;
     background-color: aquamarine;
 }
@@ -30,4 +39,17 @@ a:hover {
     border: 1px solid black;
     width: 400px;
     height: 200px;
+}
+
+.block {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.inline {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    display: inline-block;
 }
